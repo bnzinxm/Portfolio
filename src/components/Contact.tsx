@@ -31,7 +31,7 @@ export function Contact() {
               <div>
                 <h3 className="font-semibold">Email</h3>
                 <a href="mailto:your@email.com" className="text-gray-400 hover:text-white">
-                  your@email.com
+                  brenobarbosa269@gmail.com
                 </a>
               </div>
             </div>
@@ -42,7 +42,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold">Social Media</h3>
-                <p className="text-gray-400">@yourusername</p>
+                <p className="text-gray-400">@__astrodev</p>
               </div>
             </div>
           </motion.div>
