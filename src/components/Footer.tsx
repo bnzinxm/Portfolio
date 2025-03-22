@@ -25,7 +25,7 @@ export function Footer() {
             className="flex space-x-6"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/bnzinxm"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -33,7 +33,7 @@ export function Footer() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/astrodev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -41,7 +41,7 @@ export function Footer() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:your@email.com"
+              href="mailto:brenobarbosa269@gmail.com"
               className="text-gray-400 hover:text-white transition-colors"
             >
               <Mail className="w-6 h-6" />

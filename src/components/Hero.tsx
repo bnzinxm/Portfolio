@@ -96,15 +96,15 @@ export function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
       >
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+        <a href="https://github.com/bnzinxm" target="_blank" rel="noopener noreferrer" 
            className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-200">
           <Github size={24} />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.linkedin.com/in/astrodev" target="_blank" rel="noopener noreferrer"
            className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-200">
           <Linkedin size={24} />
         </a>
-        <a href="mailto:your@email.com"
+        <a href="mailto:brenobarbosa269@gmail.com"
            className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-200">
           <Mail size={24} />
         </a>

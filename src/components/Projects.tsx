@@ -39,18 +39,6 @@ const projects = [
     ]
   },
   {
-    title: 'cf-bash',
-    description: 'Terminal personalizado para o Caixa Fácil, otimizado para operações de mercado.',
-    icon: <Terminal className="w-12 h-12" />,
-    tech: ['Shell Script', 'Golang'],
-    features: [
-      'Ambiente seguro',
-      'Comandos simplificados',
-      'Integração com APIs',
-      'Suporte Windows/Linux'
-    ]
-  },
-  {
     title: 'CB Script',
     description: 'Linguagem de automação em português para scripts no cf-bash.',
     icon: <Code className="w-12 h-12" />,
@@ -72,6 +60,16 @@ const projects = [
       'Detecção de vulnerabilidades',
       'Relatórios detalhados',
       'Sugestões de correção'
+    ]
+  },
+  {
+    title: "dontsaythat!",
+    description: "Uma API que detecta palavrões em uma sentença e censura as mesmas.",
+    icon: <MessageSquare className="w-12 h-12"/>,
+    tech: ['Java', 'Spring Boot'],
+    features: [
+      'Censura automatizada',
+      'Reconhecimento de palavras por IA'
     ]
   }
 ];
