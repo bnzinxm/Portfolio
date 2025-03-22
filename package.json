@@ -15,13 +15,16 @@
   "dependencies": {
     "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
+    "@supabase/supabase-js": "^2.49.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "framer-motion": "^11.0.5",
     "gsap": "^3.12.5",
     "lucide-react": "^0.344.0",
     "motion": "^12.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "socket.io-client": "^4.8.1",
     "tailwind-merge": "^3.0.2",
     "three": "^0.161.0"
   },
