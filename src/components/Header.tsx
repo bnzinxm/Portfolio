@@ -18,21 +18,21 @@ export function Header() {
 
   useEffect(() => {
     // Simulação de contador de usuários sem servidor
-    
+
     // Gerar um número aleatório entre min e max
     const getRandomInt = (min, max) => {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     };
-    
+
     // Definir um número inicial de usuários (entre 3 e 8)
     const initialUsers = getRandomInt(3, 8);
     setUsersOnline(initialUsers);
-    
+
     // Simular flutuações no número de usuários a cada 5-20 segundos
     const simulateUserFluctuation = () => {
       // 70% de chance de aumentar, 30% de diminuir
       const shouldIncrease = Math.random() > 0.3;
-      
+
       setUsersOnline(current => {
         if (shouldIncrease) {
           // Aumentar em 1-2 usuários
@@ -42,18 +42,18 @@ export function Header() {
           return Math.max(1, current - 1);
         }
       });
-      
+
       // Agendar a próxima atualização em um intervalo aleatório (5-20 segundos)
       const nextInterval = getRandomInt(5000, 20000);
       timeoutRef.current = setTimeout(simulateUserFluctuation, nextInterval);
     };
-    
+
     // Referência para o timeout
     const timeoutRef = { current: null };
-    
+
     // Iniciar a simulação após um pequeno delay
     timeoutRef.current = setTimeout(simulateUserFluctuation, getRandomInt(5000, 10000));
-    
+
     // Limpar o timeout quando o componente for desmontado
     return () => {
       if (timeoutRef.current) {
@@ -121,11 +121,11 @@ export function Header() {
                   <div className="absolute -inset-1 rounded-full bg-green-400 opacity-20 blur-sm"></div>
                 </div>
                 <span className="ml-2 text-xs text-gray-300">
-                  {usersOnline}
+                  Estou Online!
                 </span>
               </div>
             </div>
-            
+
             <button
               className="text-white"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
